@@ -123,12 +123,12 @@ Here are five German traffic signs that I found on the web:
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
-Here are the results of the prediction:
-head only
-Wild animals crossing
-Pedestrians
-Road work
-Dangerous curve to the left
+Here are the results of the prediction:  
+head only   
+Wild animals crossing   
+Pedestrians   
+Road work   
+Dangerous curve to the left   
 
 Above all are correct predictions. Thus our model was able to correctly guess all images which ammounts to perfect 100% accuracy.
 
@@ -136,17 +136,17 @@ Above all are correct predictions. Thus our model was able to correctly guess al
 
 We are getting very high probability close to 1.0 of predicted signs for all images. Softmax probability for top 5 images is listed below:-
 
-For 1st image,  we can see all other probabilities are nearly zero.
+For 1st image,  we can see all other probabilities are nearly zero.    
 [1.00000000e+00, 4.97247021e-10, 2.75059212e-11, 1.61488756e-11, 2.36237700e-12]
 
-For 2nd image, matching probability is 0.96
+For 2nd image, matching probability is 0.96    
 [9.65157092e-01, 3.48428302e-02, 5.96068546e-08, 2.01016044e-11, 2.79509163e-12]
 
-For 3rd image, probability of matching to actual sign is 0.99
+For 3rd image, probability of matching to actual sign is 0.99   
 [9.99999523e-01, 4.73475268e-07, 8.66439631e-09, 1.55775745e-17, 8.22112063e-18]
 
-For 4th image, probability of matching to actual sign is nearly perfect 1.0
+For 4th image, probability of matching to actual sign is nearly perfect 1.0   
 [1.00000000e+00, 1.52848063e-08, 9.76909220e-09, 3.06293169e-09, 9.76841719e-10]
 
-For 5th image, probability of matching to actual sign is nearly perfect again high 0.99
+For 5th image, probability of matching to actual sign is nearly perfect again high 0.99   
 [9.99988198e-01, 1.18417156e-05, 1.29803590e-08, 1.40897016e-11, 4.82681820e-12]
