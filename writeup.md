@@ -1,4 +1,4 @@
-#Build a Traffic Sign Recognition Project
+#Build a Traffic Sign Recognition Project   
 
 ** The goals / steps of this project are the following: **
 
@@ -19,9 +19,9 @@
 [image4]: ./new_images/4.png "4th new image"
 [image5]: ./new_images/5.png "5th new image"
 
-###Data Set Summary & Exploration
+###Data Set Summary & Exploration  
 
-####1. Basic summary of the data set. 
+####1. Basic summary of the data set.   
 
 The size of training set is 34799    
 The size of the validation set is 4410   
@@ -29,25 +29,25 @@ The size of test set is 12630
 The shape of a traffic sign image is 32 * 32 * 3, which represents image width and height as 32 and there are 3 color channels.   
 The number of unique classes/labels in the data set is 43   
 
-####2. Include an exploratory visualization of the dataset.
+####2. Include an exploratory visualization of the dataset.   
 
 Here is an exploratory visualization of the data set. It is a histogram depicting distribution for count of different categories. 
 
 ![histogram of count of different categories][image_hist]
 
-###Design and Test a Model Architecture
+###Design and Test a Model Architecture   
 
-####1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. 
+####1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.    
 
 I did following things to preprocess the data and make it amenable to feed in neural network
 
-#####a. Augment the dataset by rotation
+#####a. Augment the dataset by rotation    
 I doubled the size of our dataset by rotating each image by few degrees. We would get better accuracy as size of our training data is increased.
 
-#####b. Convert to grayscale
+#####b. Convert to grayscale    
 I convert from RGB to Grayscale so that our input image has a single channel and our neural network is simplified. 
 
-#####c. Normalize the image
+#####c. Normalize the image   
 I normalize the image in range [0, 1] so that learning is faster.  
 
 After preprcessing, our training data set has size of (69598, 32, 32, 1)
