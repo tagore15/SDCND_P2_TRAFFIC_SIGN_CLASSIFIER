@@ -124,13 +124,13 @@ Here are five German traffic signs that I found on the web:
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:  
-head only   
-Wild animals crossing   
-Pedestrians   
-Road work   
-Dangerous curve to the left   
+- head only   
+- Wild animals crossing   
+- Pedestrians   
+- Road work   
+- Dangerous curve to the left   
 
-Above all are correct predictions. Thus our model was able to correctly guess all images which ammounts to perfect 100% accuracy.
+Above all are correct predictions. Thus our model was able to correctly guess all images which amount to perfect 100% accuracy.
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
